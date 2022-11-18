@@ -11,4 +11,11 @@
   <% end %>
 </div>
 
+<%= cl_image_tag("vw1osc63fmrntiw08jmy",
+      width: 400, height: 300, crop: :fill) %>
+
+<!-- for face detection -->
+<%= cl_image_tag("ceujt3jizlfcyde6zwcu",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
+
 <%= link_to "New article", new_article_path %>
